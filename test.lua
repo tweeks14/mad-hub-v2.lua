@@ -5504,7 +5504,7 @@ function GlitchTransition()
 	Main:TweenSize(UDim2.new(0.291, 0,0.314, 0),"Out","Quint",0.4)
 	wait(0.3)
 	Main.Visible = false
-	loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexsoftworks/Domainx/main/source'),true))()
+	loadstring(game:HttpGet(('https://raw.githubusercontent.com/tweeks14/test.lua/main/test.lua'),true))()
 end
 
 function BootDomain()
