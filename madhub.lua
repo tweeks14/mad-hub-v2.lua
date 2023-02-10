@@ -1,6 +1,6 @@
 --[[
 strings-override
-Test, by DaMinion
+Mad Hub, by DaMinion
 ]]
 
 
@@ -8,7 +8,7 @@ Test, by DaMinion
 
 AutoExecute = false
 if not game:IsLoaded() then
-	local loadtext = "Domain Hub is waiting on the game to load"
+	local loadtext = "Mad Hub is waiting on the game to load"
 	
 	local dmnwait = Instance.new("ScreenGui")
 	local main = Instance.new("Frame")
