@@ -3540,6 +3540,14 @@ BackgroundExploits = {
 		WaitDuration = 0,
 		Loadstring = "https://pastebin.com/raw/bHQ8dyX8",
 	},
+    	slapbattles = {
+    		Name = "dizzy hub on slap battles",
+    		Description = "that a default dizzy hub",
+    		PlaceIds = {6403373529},
+    		PremiumOnly = false,
+    		WaitDuration = 0,
+    	Loadstring = "https://raw.githubusercontent.com/dizyhvh/slap_battles_gui/main/0.lua",
+    	},
 }
 
 UniversalExploits = {
