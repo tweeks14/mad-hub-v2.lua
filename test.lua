@@ -3258,7 +3258,7 @@ Domain.notice.TextWrapped = true
 V2 = true
 Key = "2r0jfv"
 Key2 = "br"
-keyenabled = true
+keyenabled = false
 
 
 NotificationDuration = 7
