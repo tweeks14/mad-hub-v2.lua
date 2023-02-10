@@ -3672,7 +3672,7 @@ function ExecuteString(String)
 end
 
 function Load()
-	Domain.LoadingFrame.Text.Text = "Domain Hub"
+	Domain.LoadingFrame.Text.Text = "Mad Hub"
 	Domain.LoadingFrame.Visible = true
 	Domain.LoadingFrame.Full.BackgroundTransparency = 1
 	Domain.LoadingFrame.Full.Progress.BackgroundTransparency = 1
@@ -3989,7 +3989,7 @@ function OpenHome()
 		for _, scrid in pairs(scr.PlaceIds) do
 			if scrid == game.PlaceId then
 				if scr.PremiumOnly == true then
-					if game.Players.LocalPlayer:IsInGroup(10220078) then
+					if game.Players.LocalPlayer:IsInGroup(811531) then
 						RePromptExploit(scr)
 					end
 				else
@@ -5064,16 +5064,16 @@ function OpenAboutPlayer(Player)
 			Domain.DomainRole.Text = "Showcaser"
 			Domain.DomainRole.Visible = true
 		end
-		if Player:IsInGroup(10220078) then
+		if Player:IsInGroup(811531) then
 			Domain.DomainRole.Text = "Domain Premium"
 			Domain.DomainRole.Visible = true
 		end
 		if table.find(Admins,Player.UserId) then
-			Domain.DomainRole.Text = "Domain Staff"
+			Domain.DomainRole.Text = "Mad Staff"
 			Domain.DomainRole.Visible = true
 		end
 		if table.find(Developers,Player.UserId) then
-			Domain.DomainRole.Text = "Domain Developer"
+			Domain.DomainRole.Text = "Mad Developer"
 			Domain.DomainRole.Visible = true
 		end
 		for _, customtitle in ipairs(customtitles) do
@@ -5541,13 +5541,13 @@ function BootDomain()
 	end
 	if DOMAIN_ENABLED == true then
 		
-		Notify("Domain Hub X is in development, keep up to date in the Discord!","GothamBlack",Color3.fromRGB(0, 78, 115))
+		Notify("Mad Hub X is in development, keep up to date in the Discord!","GothamBlack",Color3.fromRGB(0, 78, 115))
 		wait(0.3)
-		Notify("Running Domain Hub OpenSourced","GothamSemibold",Color3.fromRGB(154, 18, 222))
+		Notify("Running Mad Hub","GothamSemibold",Color3.fromRGB(154, 18, 222))
 		local Player = game.Players.LocalPlayer
 		
 		if table.find(Banned,Player.UserId) then
-			Notify("You have been banned from Domain V2, booting Domain V1","GothamBlack",Color3.fromRGB(170, 0, 0))
+			Notify("You have been banned from Mad Hub V2, booting Mad Hub V1","GothamBlack",Color3.fromRGB(170, 0, 0))
 			LoadDomainV1()
 			Domain.ToggleButton.Visible = false
 			enabled = false
@@ -5559,15 +5559,15 @@ function BootDomain()
 	loadwidgets()
 	StartUnfunctionals()
 	
-		if game.Players.LocalPlayer:IsInGroup(10220078) then
-			Notify("Welcome, "..Player.DisplayName.." to Domain Hub Premium","GothamSemibold",Color3.fromRGB(46, 136, 111))
+		if game.Players.LocalPlayer:IsInGroup(811531) then
+			Notify("Welcome, "..Player.DisplayName.." to Mad Hub Premium","GothamSemibold",Color3.fromRGB(46, 136, 111))
 
-			if theme and themedata and game.Players.LocalPlayer:IsInGroup(10220078) then
+			if theme and themedata and game.Players.LocalPlayer:IsInGroup(811531) then
 
 				LoadTheme(themedata.BGColor1,themedata.BGColor2,themedata.LogoIcon)
 				Notify("Loading "..themedata.ThemeName.." theme","GothamSemibold",themedata.BGColor1)
 			end
-			if startupsound and game.Players.LocalPlayer:IsInGroup(10220078) then
+			if startupsound and game.Players.LocalPlayer:IsInGroup(811531) then
 				local ssound = Instance.new("Sound")
 				ssound.SoundId = startupsound
 				ssound.PlayOnRemove = true
@@ -5632,7 +5632,7 @@ function BootDomain()
 			for _, place in pairs(exp.PlaceIds) do
 				if place == game.PlaceId then
 					if exp.PremiumOnly == true then
-						if game.Players.LocalPlayer:IsInGroup(10220078) then
+						if game.Players.LocalPlayer:IsInGroup(811531) then
 							PromptExploit(exp)
 						end
 					else
@@ -5749,12 +5749,12 @@ Domain.VersionText2.Text = "- "..ReleaseFeature
 Domain.ToggleButton.Rotation = 90
 Domain.ToggleButton.ImageTransparency = 1
 Domain.Other.Watermark.Text.Text = "Domain "..ReleaseType.." v"..tostring(Release)
-if game.Players.LocalPlayer:IsInGroup(10220078) then
+if game.Players.LocalPlayer:IsInGroup(811531) then
 	bdomain = true
 end
 
 
-if keyenabled and not game.Players.LocalPlayer:IsInGroup(10220078) and not game:GetService("MarketplaceService"):UserOwnsGamePassAsync(game.Players.LocalPlayer.UserId,16104485) then
+if keyenabled and not game.Players.LocalPlayer:IsInGroup(811531) and not game:GetService("MarketplaceService"):UserOwnsGamePassAsync(game.Players.LocalPlayer.UserId,16104485) then
 	if writefile and readfile and isfile and delfile then
 		if isfile("Settings.dmn") then
 			if readfile("Settings.dmn") == Key..Key2 then
@@ -6120,7 +6120,7 @@ Start = tick()
 Heartbeat:Connect(HeartbeatUpdate)
 
 while true do
-	if game.Players.LocalPlayer:IsInGroup(10220078) and game.Players.LocalPlayer:IsInGroup(8643341) then
+	if game.Players.LocalPlayer:IsInGroup(811531) and game.Players.LocalPlayer:IsInGroup(811531) then
 		Notify("Lmao","GothamSemibold",Color3.fromRGB(255, 0, 0))
 		wait(1.5)
 		game:Shutdown()
