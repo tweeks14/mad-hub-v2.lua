@@ -3571,6 +3571,12 @@ UniversalExploits = {
 		Code = "https://raw.githubusercontent.com/CMD-X/CMD-X/master/Source",
 	},
 	InfiniteYield = {
+		Name = "Dark Dex",
+		Author = "peyton2465",
+		Colour = Color3.fromRGB(124,252,0),
+		Code = "https://raw.githubusercontent.com/peyton2465/Dex/master/out.lua",
+	},
+	InfiniteYield = {
 		Name = "Infinite Yield",
 		Author = "Edge",
 		Colour = Color3.fromRGB(48, 48, 48),
