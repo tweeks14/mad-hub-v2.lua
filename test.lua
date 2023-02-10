@@ -3570,7 +3570,7 @@ UniversalExploits = {
 		Colour = Color3.fromRGB(55, 95, 97),
 		Code = "https://raw.githubusercontent.com/CMD-X/CMD-X/master/Source",
 	},
-	InfiniteYield = {
+	DarkDex = {
 		Name = "Dark Dex",
 		Author = "peyton2465",
 		Colour = Color3.fromRGB(124,252,0),
